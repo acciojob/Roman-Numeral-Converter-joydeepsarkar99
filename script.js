@@ -9,9 +9,10 @@ function convertToRoman(num) {
 		6:['L', 50], 
 		7:['XL', 40], 
 		8:['X', 10], 
-		9:['V', 5], 
-		10:['IV', 4], 
-		11:['I', 1]
+		9:['IX', 9], 
+		10:['V', 5], 
+		11:['IV', 4], 
+		12:['I', 1]
     };
 	let ans = ""  
 	for(let i in obj){   
